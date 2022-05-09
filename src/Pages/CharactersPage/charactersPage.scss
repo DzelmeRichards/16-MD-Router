@@ -1,0 +1,39 @@
+.characters__container {
+  margin-top: 30px;
+}
+
+.characters__card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 30px;
+  margin-top: 30px;
+
+}
+
+.characters__card {
+  border: 1px solid rgb(157, 196, 58);
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  width: 100%;
+  gap: 20px;
+}
+
+.characters__button {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(181, 206, 143);
+
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: rgb(128, 170, 64);
+  }
+}
